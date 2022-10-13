@@ -1,0 +1,150 @@
+{
+    "posts": [
+      { "id": 1, "title": "json-server", "author": "typicode" }
+    ],
+    "mobiles": [
+      { 
+      "catid": 1,
+      "prodname": "samsung galaxy S22", 
+      "prodid": "#27495",
+      "catname": "Smartphone",
+      "price": 80000
+     },
+     { 
+      "catid": 2,
+      "prodname": "samsung galaxy A55", 
+      "prodid": "#27496",
+      "catname": "Smartphone",
+      "price": 22000
+     },
+     { 
+      "catid": 3,
+      "prodname": "oneplus nord ce 2", 
+      "prodid": "#27497",
+      "catname": "Smartphone",
+      "price": 21000
+     },
+     { 
+      "catid": 4,
+      "prodname": "oppo reno 8 pro", 
+      "prodid": "#27498",
+      "catname": "Smartphone",
+      "price": 65000
+     },
+     { 
+      "catid": 5,
+      "prodname": "redmi note 8 pro", 
+      "prodid": "#27499",
+      "catname": "Smartphone",
+      "price": 14000
+     },
+     { 
+      "catid": 6,
+      "prodname": "realme gt 2", 
+      "prodid": "#27500",
+      "catname": "Smartphone",
+      "price": 26000
+     },
+     { 
+      "catid": 7,
+      "prodname": "samsung galaxy S21 ultra", 
+      "prodid": "#27501",
+      "catname": "Smartphone",
+      "price": 72000
+     },
+     { 
+      "catid": 8,
+      "prodname": "iphone 14 pro max", 
+      "prodid": "#27502",
+      "catname": "Smartphone",
+      "price": 130000
+     },
+     { 
+      "catid": 9,
+      "prodname": "vivo y1", 
+      "prodid": "#27503",
+      "catname": "Smartphone",
+      "price": 10000
+     },
+     { 
+      "catid": 10,
+      "prodname": "oppo reno 5 pro", 
+      "prodid": "#27504",
+      "catname": "Smartphone",
+      "price": 35000
+     }
+    ],
+
+
+    "earphones": [{ 
+      "catid": 1,
+      "prodname": "realme buds 2", 
+      "prodid": "#84571",
+      "catname": "earphone",
+      "price": 599
+     },
+     { 
+      "catid": 2,
+      "prodname": "mi buds classic", 
+      "prodid": "#84572",
+      "catname": "earphone",
+      "price": 799
+     },
+     { 
+      "catid": 3,
+      "prodname": "realme buds", 
+      "prodid": "#84573",
+      "catname": "earphone",
+      "price": 499
+     },
+     { 
+      "catid": 4,
+      "prodname": "realme buds classic", 
+      "prodid": "#84574",
+      "catname": "earphone",
+      "price": 399
+     },
+     { 
+      "catid": 5,
+      "prodname": "boult wired earphones", 
+      "prodid": "#84575",
+      "catname": "earphone",
+      "price": 599
+     },
+     { 
+      "catid": 6,
+      "prodname": "realme buds air 3", 
+      "prodid": "#84576",
+      "catname": "earphone",
+      "price": 4000
+     },
+     { 
+      "catid": 7,
+      "prodname": "realme buds air 2", 
+      "prodid": "#84577",
+      "catname": "earphone",
+      "price": 2800
+     },
+     { 
+      "catid": 8,
+      "prodname": "realme buds air", 
+      "prodid": "#84578",
+      "catname": "earphone",
+      "price": 2400
+     },
+     { 
+      "catid": 9,
+      "prodname": "oneplus bullet wireless", 
+      "prodid": "#84579",
+      "catname": "earphone",
+      "price": 5000
+     },
+     { 
+      "catid": 10,
+      "prodname": "samsung buds 2", 
+      "prodid": "#84580",
+      "catname": "earphone",
+      "price": 24000
+     }
+    ]
+  }

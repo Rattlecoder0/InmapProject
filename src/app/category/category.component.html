@@ -1,0 +1,58 @@
+<section class="products">
+    <div class="prod">
+
+        <div class="prod-cont">
+            <div class="prod-head">
+                <h1>Categories</h1>
+                <button type="button" class="add-prod-btn" data-bs-toggle="modal" data-bs-target="#editcategory" >Add Category</button>
+            </div>
+
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">id</th>
+                    <th scope="col">Name</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let d of prodList" (click)="onRou(d)">
+                    <th scope="row" >{{prodList.indexOf(d) +1}}</th>
+                    <td >{{d}}</td>
+                  </tr>
+                </tbody>
+              </table>
+ 
+        </div>
+
+    </div>
+</section>
+
+
+
+ <!-- Add Category Modal -->
+ <div class="modal fade" id="editcategory" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="editcategoryLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="editcategoryLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <form [formGroup]="prodDetail" (ngSubmit)="addData()">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Category id</label>
+            <input type="number" class="form-control" id="cid" formControlName="catid">
+          </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Category Name</label>
+              <input type="text" class="form-control" id="cname" formControlName="catname">
+            </div>
+          
+          <button type="submit" class="btn btn-primary">Add Category</button>
+        </form>
+
+      </div>       
+    </div>
+  </div>
+</div>

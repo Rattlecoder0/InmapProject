@@ -1,0 +1,49 @@
+.category{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.cat{
+    width: 98%;
+}
+
+
+.cat-head{
+    display: flex;
+    justify-content: space-between;
+    background-color:darkslateblue;
+    padding: .5%;
+}
+.cat-head h1{
+    font-size: 30px;
+    color: white;
+}
+.add-cat-btn{
+    border: none;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    transition: .3s;
+}
+.add-cat-btn:hover{
+    background-color: rgb(0, 80, 156);
+}
+
+.cat-list{
+    background-color:cadetblue;
+}
+
+.cat-list ul{
+    padding: 0;
+}
+.cat-list ul li{
+    list-style: none;
+    border-bottom: 2px solid;
+    padding: 1% 0 1% .5%;
+}
+.cat-list ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}

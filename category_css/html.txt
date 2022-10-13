@@ -1,0 +1,21 @@
+<section class="category">
+    <div class="cat">
+
+    <div class="cat-cont">
+        <div class="cat-head">
+            <h1>Category</h1>
+            <button class="add-cat-btn">Add Category</button>
+        </div>
+
+        <div class="cat-list">
+            <ul>
+                <li><a routerLink="">Mobiles</a></li>
+                <li><a routerLink="">Watch</a></li>
+                <li><a routerLink="">Earphones</a></li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+</section>
+

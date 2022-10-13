@@ -1,0 +1,88 @@
+.products{
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+}
+.prod{
+    width: 98%;
+}
+
+.prod-head{
+    display: flex;
+    justify-content: right;
+    background-color:darkslateblue;
+    padding: .5%;
+    position: relative;
+}
+.prod-head h1{
+    position: absolute;
+    top: 50%;
+    left: .5%;
+    transform: translate(0, -50%);
+    font-size: 30px;
+    color: white;
+}
+
+/* -----Add Product button--------- */
+.add-prod-btn{
+    background-color: rgb(0, 132, 255);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 12px 15px;
+    transition: .2s;
+    box-shadow: 0 3px 1px rgba(37, 37, 37, 0.783);
+}
+.add-prod-btn:hover{
+    background-color: rgb(9, 91, 168);
+}
+.add-prod-btn:active{
+    transform: translateX(0) translateY(3px);
+    box-shadow: 0 0 0 rgba(37, 37, 37, 0.783);
+}
+
+/* -------Products List Table--------- */
+.table{
+    background-color:rgba(95, 158, 160, 0.486);
+    text-align: center;
+    align-items: center;
+}
+
+tr{
+    position: relative;
+}
+th,td{
+    height: 50px;
+   
+}
+
+/* ------Edit Delete Buttons------ */
+.btns{
+    display: flex;
+}
+.edit-btn{
+    background-color: rgb(0, 184, 52);
+    margin-right: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 15px;
+    transition: .2s;
+    box-shadow: 0 3px 1px rgba(37, 37, 37, 0.783);
+}
+.edit-btn:hover{
+    background-color: rgb(0, 159, 45);
+}
+.del-btn{
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 15px;
+    transition: .2s;
+    box-shadow: 0 3px 1px rgba(37, 37, 37, 0.783);
+}
+.del-btn:hover{
+    background-color: rgba(203, 10, 10, 0.904)
+}
+
